@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  background-color: #444;
+  color: #FFF;
+  font-family: Palatino Linotype;
+  font-size: 60px;
+  display: grid;
+}
+
+header {
+  text-align: center;
+}
