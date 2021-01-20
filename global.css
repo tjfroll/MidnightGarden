@@ -4,14 +4,23 @@
   border: none;
 }
 
+div, article, section, header, footer, main, h1, h2, h3, h4, h5, h6 {
+  display: flex;
+}
+
 body {
   background-color: #444;
   color: #FFF;
   font-family: Palatino Linotype;
   font-size: 60px;
-  display: grid;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
 }
 
-header {
-  text-align: center;
+main {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  justify-items: center;
 }
